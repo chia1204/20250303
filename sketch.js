@@ -20,9 +20,9 @@ function setup() {
   
   dropdown = createSelect();
   dropdown.position(button.x + button.width + 10, 10);
-  dropdown.option('第一周');
-  dropdown.option('第二周');
-  dropdown.option('第三周');
+  dropdown.option('第三周作品');
+  dropdown.option('教育科技學系');
+  dropdown.option('第三周講義');
   dropdown.changed(handleDropdownChange);
 }
 
@@ -32,11 +32,11 @@ function toggleBounce() {
 
 function handleDropdownChange() {
   let selected = dropdown.value();
-  if (selected === '第一周') {
-    window.open('https://www.tku.edu.tw', '_blank');
-  } else if (selected === '第二周') {
+  if (selected === '第三周作品') {
+    window.open('https://chia1204.github.io/20250303/', '_blank');
+  } else if (selected === '教育科技學系') {
     window.open('https://www.et.tku.edu.tw', '_blank');
-  } else if (selected === '第三周') {
+  } else if (selected === '第三周講義') {
     window.open('https://hackmd.io/@GWnAY8lqQFec-HSjPRuGkw/SJz8QFzjyg', '_blank');
   }
 }
