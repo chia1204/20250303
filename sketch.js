@@ -36,8 +36,8 @@ function handleDropdownChange() {
     window.open('https://chia1204.github.io/20250303/', '_blank');
   } else if (selected === '教育科技學系') {
     window.open('https://www.et.tku.edu.tw', '_blank');
-  } else if (selected === '第三周講義') {
-    window.open('https://hackmd.io/@GWnAY8lqQFec-HSjPRuGkw/SJz8QFzjyg', '_blank');
+  } else if (selected === '測驗卷') {
+    window.open('https://chia1204.github.io/20250310./');
   }
 }
 
