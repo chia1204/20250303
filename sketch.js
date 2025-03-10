@@ -8,7 +8,7 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   input = createInput();
   input.position(10, 10);
-  input.value('淡江大學');
+  input.value('🐶');
   
   slider = createSlider(20, 50, 32); //滑桿範圍
   slider.position(input.x + input.width + 10, 10);
